@@ -45,6 +45,7 @@ body {
 .social-link {
    margin-left: 20px;
 }
+
 .social-link:first-child {
    margin-left: 0;
 }
@@ -140,6 +141,87 @@ body {
    margin: 0;
 }
 
+/* projects */
+
+.projects {
+   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projects-slide {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.project-text {
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 60%;
+}
+
+.project-title {
+   flex-basis: 100%;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+   margin: 0;
+   margin-bottom: 42px;
+}
+
+.project-time,
+.project-cost {
+   flex-basis: 50%;
+   margin-bottom: 44px;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+   display: flex;
+   align-items: flex-start;
+}
+
+.project-subtitle {
+   margin: 0;
+   margin-bottom: 7px;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.project-paragraph {
+   margin: 0;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   max-width: 481px;
+}
+
+.project-icon {
+   margin-right: 16px;
+}
+
+.projects-bullet {
+   width: 10px;
+   height: 10px;
+   border: 2px solid #FFBB01;
+   border-radius: 50%;
+   display: inline-block;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.projects-pagination {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 44px;
+}
+
+.projects-bullet-active {
+   background-color: #ffbb01;
+}
+
 /* contacts */
 
 .contacts-form {
@@ -209,7 +291,7 @@ body {
 }
 
 .contacts-phone,
-contacts-mail {
+.contacts-mail {
    flex-basis: 50%;
    margin-bottom: 53px;
 }
@@ -248,6 +330,3 @@ contacts-mail {
    color: #A5A5A5;
    margin-top: 72px;
 }
-
-
-

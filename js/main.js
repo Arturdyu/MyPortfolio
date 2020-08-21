@@ -4,6 +4,6 @@ var mySwiper = new Swiper('.swiper-container', {
       el: '.projects-pagination',
       bulletClass: 'projects-bullet',
       bulletActiveClass:'projects-bullet-active',
-      clickable: true;
+      clickable: true
    },
 });

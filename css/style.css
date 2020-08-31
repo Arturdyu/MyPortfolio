@@ -49,6 +49,7 @@ body {
 }
 
 .social-link {
+
    margin-left: 20px;
 }
 
@@ -279,14 +280,21 @@ body {
    margin-bottom: 17px;
    background-image: url('../img/user-icon.svg');
    background-repeat: no-repeat;
-   background-position: center left 20px;
+   background-position: center left 13px;
 }
 
 .input-phone {
    margin-bottom: 26px;
    background-image: url('../img/phone-icon.svg');
    background-repeat: no-repeat;
-   background-position: center left 20px;
+   background-position: center left 16px;
+}
+
+.input-text {
+   margin-bottom: 26px;
+   background-image: url('../img/input-text.svg');
+   background-repeat: no-repeat;
+   background-position: center left 16px;
 }
 
 .form-button {

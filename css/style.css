@@ -15,6 +15,10 @@ body {
       sans-serif;
 }
 
+/* a {
+   text-decoration: none;
+} */
+
 .hero-header {
    display: flex;
    justify-content: space-between;
@@ -81,6 +85,7 @@ body {
    margin-bottom: 38px;
 }
 
+
 .button {
    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
    box-shadow: 0px 4px 0px #B68500;
@@ -91,7 +96,11 @@ body {
    font-weight: bold;
    border-radius: 5px 5px 10px 10px;
    padding: 24px 42px;
+}
 
+.look-portfolio {
+   text-decoration: none;
+   color: black;
 }
 
 .hero-avatar {

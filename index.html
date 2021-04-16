@@ -488,7 +488,23 @@
                         <button class="button form-button">Отправить</button>
                     </form>
 
-                    <form action="https://formspree.io/artur_dyu@mail.ru" method="POST"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send" method="POST"></form>
+                    <form
+  action="https://formspree.io/artur_dyu@mail.ru"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 
 
                     <div class="contacts-text">

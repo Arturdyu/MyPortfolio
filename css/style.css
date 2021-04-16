@@ -96,6 +96,7 @@ body {
    font-weight: bold;
    border-radius: 5px 5px 10px 10px;
    padding: 24px 42px;
+   cursor: pointer;
 }
 
 .look-portfolio {

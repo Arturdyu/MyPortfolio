@@ -8,7 +8,7 @@ $name = $_POST['name'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 // Формирование самого письма
-$title = "Новое обращение Best Tour Plan";
+$title = "Новое обращение Portfolio";
 $body = "
 <h2>Новое обращение</h2>
 <b>Имя:</b> $name<br>

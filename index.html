@@ -461,25 +461,27 @@
             <div class="container">
                 <h2 class="section-title"></h2>
                 <div class="contacts-block">
-                    <form action="#" class="contacts-form">
+                    <form action="send.php" method="POST" class="contacts-form">
                         <h4 class="form-title">
-                            Можете просто оставить Ваше предложение, я позвоню
-                            Вам сегодня
+                            Можете просто оставить ваше предложение
                         </h4>
                         <input
                             type="text"
                             class="input input-name"
                             placeholder="Ваше имя"
+                            name="name"
                         />
                         <input
                             type="tel"
                             class="input input-phone"
                             placeholder="Ваш телефон"
+                            name="phone"
                         />
                         <input
                             type="text"
                             class="input input-text"
                             placeholder="Введите текст"
+                            name="message"
                         />
                         <button class="button form-button">Отправить</button>
                     </form>

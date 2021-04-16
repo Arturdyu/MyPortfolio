@@ -308,6 +308,7 @@ body {
 
 .form-button {
    width: 100%;
+   cursor: pointer;
 }
 
 /* footer */
@@ -509,6 +510,7 @@ body {
 
    .form-button {
       font-size: 10px;
+      cursor: pointer;
    }
 
    .contacts-phone,

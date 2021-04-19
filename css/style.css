@@ -4,7 +4,12 @@
 
 img {
    max-width: 35%;
-   max-height: 50%;
+   max-height: 55%;
+}
+
+.logo_pic {
+   max-width: 75%;
+   max-height: 95%;
 }
 
 body {
@@ -111,8 +116,9 @@ body {
    border-radius: 50%;
    background-image: url('../img/avatar.jpg');
    background-repeat: no-repeat;
-   background-position: right -610px top -520px;
+   background-position: right -14px top -70px;
    border: 13px solid white;
+   background-size: 383px;
 }
 
 .hero-content {
